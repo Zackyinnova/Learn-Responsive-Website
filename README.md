@@ -1,4 +1,4 @@
-Responsive Website Practice
+**Responsive Website Practice**
 
 This repository is created for learning purposes, focusing on building a responsive website using HTML and CSS.
 

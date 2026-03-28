@@ -97,16 +97,22 @@ body{
 
 .box-navbar{
     color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
 }
 
 .menu-title{
     border-bottom: 1px solid #B2B2B2;
     padding: 0 20px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-bottom: 10px;
 }
 
-.nav{
+.nav-overlay{
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -159,7 +165,7 @@ body{
     }
 
     .overlay-navbar{
-        display: flex;
+        display: none;
         position: fixed;
         inset: 0;
         background: rgba(0,0,0,0.55);
@@ -171,6 +177,7 @@ body{
         padding-left: 20px;
         font-size: 30px ;
     }
+
 }
 
 .iconamoon--menu-burger-horizontal-bold {
